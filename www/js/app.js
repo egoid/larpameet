@@ -212,7 +212,7 @@ starry.controller("SplashController", function ($scope, $http, $cordovaOauth, $l
     });
 // CORDOVA OAUTH FOR APPS
     $scope.login = function() { 
-    $cordovaOauth.facebook("434572043406554", ["user_photos, publish_actions"]).then(function(result) {
+    $cordovaOauth.facebook("s", ["user_photos, publish_actions"]).then(function(result) {
         localStorage.access_token = result.access_token;
         testAPI();
         $location.path("/profile");
