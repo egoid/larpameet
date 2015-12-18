@@ -13,6 +13,7 @@ To - Do list:<br>
 Completed:<br>
 -User Auth via Facebook<br>
 -Back End User profile persistence<br>
+-Click Toggling User Profile to make it Content Editable, and persist with back end
 -Tindr Swipe animations<br>
 -UI \ UX directions<br><br>
 
